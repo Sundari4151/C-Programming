@@ -7,7 +7,7 @@ int main()
   {
     printf("Positive");
   }
-  elseif(n==0)
+  else if(n==0)
   {
     printf("Zero");
   }
@@ -15,4 +15,5 @@ int main()
   {
     printf("Negative");
   }
+  return 0;
   }

@@ -8,9 +8,9 @@ int main()
   scanf("%s", &ch);
  
   if ((ch>='a' && ch>='z')||(ch>='A' && ch>='Z'))
-    printf("Constant\n", ch);
+    printf("Consonant\n", ch);
   else
-    printf("No\n", ch);
+    printf("Invalid\n", ch);
  
   return 0;
 }

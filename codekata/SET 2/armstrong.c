@@ -7,7 +7,7 @@ int main()
   {
     rem=orgnumber%10;
     res=res+rem*rem*rem;
-    orgnumber=orgnumber/10;
+    orgnumber/=10;
   }
   if(res==n)
     printf("yes");

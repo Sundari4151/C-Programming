@@ -3,6 +3,7 @@ int main()
 {
   int n,orgnumber,rem,res=0;
   scanf("%d",&n);
+  orgnumber=n;
   while(orgnumber!=0)
   {
     rem=orgnumber%10;

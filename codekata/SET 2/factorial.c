@@ -2,7 +2,7 @@
 int main()
 {
     int n,i;
-    unsigned long long factorial =1;
+    int factorial =1;
     scanf("%d",&n);
     if(n<o)
     {
@@ -14,7 +14,7 @@ int main()
         {
             factorial*=1;
         }
-     printf("%llu",factorial);
+     printf("%d",factorial);
     }
       return 0;
 }

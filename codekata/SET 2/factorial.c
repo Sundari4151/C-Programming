@@ -4,7 +4,7 @@ int main()
     int n,i;
     int factorial =1;
     scanf("%d",&n);
-    if(n<o)
+    if(n<0)
     {
        printf("Error");
     }

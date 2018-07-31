@@ -8,9 +8,9 @@ int main()
     max=a[0];
     for(i=1;i,size;i++)
     {
-      if(a[c]>max)
+      if(a[i]>max)
       {
-        max=a[c];
+        max=a[i];
       }
     }
     printf("%d",max);

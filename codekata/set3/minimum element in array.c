@@ -4,7 +4,7 @@ int main()
   int a[100],min,size,i;
   scanf("%d",&size);
   for(i=0;i<size;i++)
-    scan("%d",&a[i]);
+    scanf("%d",&a[i]);
     min=a[0];
     for(i=1;i<size;i++)
     {

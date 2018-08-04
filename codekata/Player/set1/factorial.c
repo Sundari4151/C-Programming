@@ -5,6 +5,6 @@ int main()
   scanf("%d",&n);
   for(c=1;c<=n;c++)
     f=f*c;
-  printf("%d",fact);
+  printf("%d",f);
   return 0;
 }

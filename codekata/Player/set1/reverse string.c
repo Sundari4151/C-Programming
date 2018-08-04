@@ -2,13 +2,13 @@
 #include<string.h>
 int main()
 {
-  char Str[100];
+  char a[100];
   int i,len;
-  gets(str);
-  len=strlen(Str);
+  gets(a);
+  len=strlen(a);
   for(i=len-1;i>=0;i--)
   {
-    printf("%c",Str[i]);
+    printf("%c",a[i]);
    }
    return 0;
  }

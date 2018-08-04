@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-void main()
+int main()
 {
   char rom[30];
   int a[30],l,i,k;
-  scanf("%s",&rom);
+  scanf("%c",&rom);
   l=strlen(rom);
   for(i=0;i<l;i++)
   {
@@ -36,6 +36,7 @@ void main()
       }
      }
      printf("%d",k);
+     return 0;
  }
             
             

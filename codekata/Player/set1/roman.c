@@ -4,20 +4,20 @@
 void main()
 {
   char rom[30];
-  int a[30],l,i,k,dec;
+  int a[30],l,i,k;
   scanf("%s",&rom);
   l=strlen(rom);
   for(i=0;i<l;i++)
   {
     switch(rom[i])
     {
-      case "I":
+      case 'I':
             a[i]=1;
             break;
-      case "V":
+      case 'V':
             a[i]=5;
             break;
-      case "X":
+      case 'X':
             a[i]=10;
             break;
       default:

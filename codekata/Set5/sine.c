@@ -8,6 +8,6 @@ int main()
   scanf("%d",&x);
   val=PI/180;
   ret=sin(x*val);
-  printf("%f",ret);
+  printf("%2.0f",ret);
   return 0;
 }

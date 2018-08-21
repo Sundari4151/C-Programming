@@ -23,7 +23,6 @@ void main()
 
 	char s[22];
 	int len,i,count=0;
-	printf("Enter string\n");
 	scanf("%s",s);
 	
 	len=strlen(s);
@@ -42,10 +41,10 @@ void main()
 	
 	if(count==len)
 	{
-	printf("palidrome\n");
+	printf("YES\n");
 	}
 	else
 	{
-	printf("not palidrome\n");
+	printf("NO\n");
 	}
 }

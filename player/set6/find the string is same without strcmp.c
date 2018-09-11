@@ -16,6 +16,6 @@ int main()
     printf("yes");
   else
     printf("no");
- getch();
+ 
  return 0;
 }

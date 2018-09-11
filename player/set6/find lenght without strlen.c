@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int  main()
 {
   char string[50];
   int i,length=0;
@@ -9,4 +9,5 @@ void main()
     length++;
   }
   printf("%d\n",length);
+  return 0;
  }
